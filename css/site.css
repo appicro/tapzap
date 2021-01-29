@@ -3587,4 +3587,44 @@ transform: scale(.8,0.8);width: 20px;height: 20px;
 .windowsphone-detection.is-active, .ios-detection.is-active, .android-detection.is-active, .non-mobile-detection.is-active {
     display: inline-block;
 }
-
+.editorComment{padding:16px 0;
+    color: #999;}
+.editorComment .con {
+    background: #f7f7f7;
+    padding: 20px;
+    color: #333;
+    border-radius: 3px;line-height: 1.6;  
+}
+.editorComment .con .editorComment-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.editorComment .con .editorComment-title i {
+    display: inline-block;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;   
+}
+@media screen and (max-width: 850px){
+.editorComment .con {
+    position: relative;
+    padding: 16px 22px;
+    color: #999;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+}
+.editorComment .con .editorComment-title {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 100px;
+    height: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}    
+}
